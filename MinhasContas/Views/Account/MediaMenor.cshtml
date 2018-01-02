@@ -1,0 +1,17 @@
+@model minhas_contas.Models.Account
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Menor Consumo</th>
+                <th></th>
+            </tr>
+             @foreach(var item in Model)
+             {
+                 <tr>
+                     <td>@item.MenorConsumo</td>
+                 </tr>
+             }
+        </thead>
+    </table>
+</div>

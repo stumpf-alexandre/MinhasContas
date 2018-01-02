@@ -1,0 +1,39 @@
+@model IEnumerable<minhas_contas.Models.Account>
+<div><a href="Account/Create">Nova Conta</a>
+<div><a href="Account/MediaMaior">Maior Media</a>
+<div><a href="Account/MediaMenor">Menor Media</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Data da Leitura</th>
+                <th>Num. Leitura</th>
+                <th>Kw Gasto</th>
+                <th>Valor a Pagar</th>
+                <th>Data Pagamento</th>
+                <th>Media Consumo</th>
+                <th></th>
+                <th></th>
+            </tr>
+            </tr>
+        </thead>
+
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.dataLeitura</td>
+                <td>@item.numLeitura</td>
+                <td>@item.KwGasto</td>
+                <td>@item.valorPagar</td>
+                <td>@item.dataPagto</td>
+                <td>@item.mediaConsumo</td>
+                <td><a class="btn btn-danger" href="Account/Delete/@item.id">Deletar</a> </td>
+                <td><a class="btn btn-primary" href="Account/Edit/@item.id">Editar</a> </td>
+                <td><a class="btn btn-success" href="Account/Pagar/@item.id">Pagar</a> </td>
+            </tr>
+        }
+    </table>
+</div>
+</div>
+</div>

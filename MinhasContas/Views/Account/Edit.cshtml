@@ -1,0 +1,56 @@
+@model minhas_contas.Models.Account
+<div class="form-horizontal">
+    <form action="Edit" method="POST">
+        <div class="form-group">
+            <label></label>
+            <input class="form-control"
+                    type="hidden"
+                    name="id"
+                    value="@Model.id"/>
+        </div>
+        <div class="form-group">
+            <label>Data da Leitura</label>
+            <input class="form-control"
+                    type="text" 
+                    name="dataLeitura"
+                    value="@Model.dataLeitura"/>
+        </div>
+        <div class="form-group">
+            <label>Num. Leitura</label>
+            <input class="form-control"
+                    type="long" 
+                    name="numLeitura"
+                    value="@Model.numLeitura"/>
+        </div>
+        <div class="form-group">
+            <label>Kw Gasto</label>
+            <input class="form-control"
+                    type="long"
+                    name="KwGasto"
+                    value="@Model.KwGasto"/>
+        </div>
+        <div class="form-group">
+            <label>Valor à Pagar</label>
+            <input class="form-control"
+                    type="double" 
+                    name="valorPagar"
+                    value="@Model.valorPagar"/>
+        </div>
+        <div class="form-group">
+            <label>Media de Consumo</label>
+            <input class="form-control"
+                    type="long" 
+                    name="mediaConsumo"
+                    value="@Model.mediaConsumo"/>
+        </div>
+        <div class="form-group">
+            <label></label>
+            <input class="form-control"
+                    type="hidden" 
+                    name="dataPagar"
+                    value="@Model.dataPagto"/>
+        </div>
+        <input class="btn btn-primary"
+                type="submit" value="Salvar"/>
+    </form>
+</div>

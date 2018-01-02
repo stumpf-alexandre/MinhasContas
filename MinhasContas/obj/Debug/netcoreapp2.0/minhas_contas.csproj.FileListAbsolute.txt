@@ -1,0 +1,10 @@
+C:\Users\als\Desktop\VS_Code\minhas_contas\obj\Debug\netcoreapp2.0\minhas_contas.csproj.CoreCompileInputs.cache
+C:\Users\als\Desktop\VS_Code\minhas_contas\obj\Debug\netcoreapp2.0\minhas_contas.AssemblyInfoInputs.cache
+C:\Users\als\Desktop\VS_Code\minhas_contas\obj\Debug\netcoreapp2.0\minhas_contas.AssemblyInfo.cs
+C:\Users\als\Desktop\VS_Code\minhas_contas\bin\Debug\netcoreapp2.0\minhas_contas.deps.json
+C:\Users\als\Desktop\VS_Code\minhas_contas\bin\Debug\netcoreapp2.0\minhas_contas.runtimeconfig.json
+C:\Users\als\Desktop\VS_Code\minhas_contas\bin\Debug\netcoreapp2.0\minhas_contas.runtimeconfig.dev.json
+C:\Users\als\Desktop\VS_Code\minhas_contas\bin\Debug\netcoreapp2.0\minhas_contas.dll
+C:\Users\als\Desktop\VS_Code\minhas_contas\bin\Debug\netcoreapp2.0\minhas_contas.pdb
+C:\Users\als\Desktop\VS_Code\minhas_contas\obj\Debug\netcoreapp2.0\minhas_contas.dll
+C:\Users\als\Desktop\VS_Code\minhas_contas\obj\Debug\netcoreapp2.0\minhas_contas.pdb
